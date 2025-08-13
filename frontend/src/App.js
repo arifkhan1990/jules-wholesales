@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from './components/Hero';
+import FeaturedProducts from './components/FeaturedProducts';
 import './App.css';
 
 
@@ -11,9 +12,7 @@ function App() {
       </header>
       <main>
         <Hero />
-        <div className="container">
-          {/* Other components like Featured Products will go here */}
-        </div>
+        <FeaturedProducts />
       </main>
       <footer className="app-footer">
         <p>&copy; 2025 Multi-Everything E-commerce Platform. All rights reserved.</p>

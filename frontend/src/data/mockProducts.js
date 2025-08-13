@@ -1,0 +1,58 @@
+export const mockProducts = [
+  {
+    id: 1,
+    name: 'Classic Leather Watch',
+    price: '150.00',
+    imageUrl: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?q=80&w=800',
+    vendor: 'Timeless Co.',
+  },
+  {
+    id: 2,
+    name: 'Wireless Bluetooth Headphones',
+    price: '99.99',
+    imageUrl: 'https://images.unsplash.com/photo-1505740420928-5e560c06d76e?q=80&w=800',
+    vendor: 'SoundWave',
+  },
+  {
+    id: 3,
+    name: 'Modern Ergonomic Chair',
+    price: '350.00',
+    imageUrl: 'https://images.unsplash.com/photo-1580480055273-228ff5388ef8?q=80&w=800',
+    vendor: 'ComfortZone',
+  },
+  {
+    id: 4,
+    name: 'Stainless Steel Water Bottle',
+    price: '25.50',
+    imageUrl: 'https://images.unsplash.com/photo-1602143407151-7111542de6e8?q=80&w=800',
+    vendor: 'HydrateNow',
+  },
+  {
+    id: 5,
+    name: 'Aromatic Scented Candle',
+    price: '18.00',
+    imageUrl: 'https://images.unsplash.com/photo-1612293902393-32a5a545a194?q=80&w=800',
+    vendor: 'Zen Moments',
+  },
+  {
+    id: 6,
+    name: 'Professional Camera Lens',
+    price: '800.00',
+    imageUrl: 'https://images.unsplash.com/photo-1500465364349-b3a536a87959?q=80&w=800',
+    vendor: 'PixelPerfect',
+  },
+  {
+    id: 7,
+    name: 'Minimalist Wall Clock',
+    price: '45.00',
+    imageUrl: 'https://images.unsplash.com/photo-1533144133589-cf51b1f1c322?q=80&w=800',
+    vendor: 'Timeless Co.',
+  },
+  {
+    id: 8,
+    name: 'Gourmet Coffee Bean Blend',
+    price: '22.75',
+    imageUrl: 'https://images.unsplash.com/photo-1511920183353-3c9c9b0a1d4c?q=80&w=800',
+    vendor: 'The Daily Grind',
+  },
+];

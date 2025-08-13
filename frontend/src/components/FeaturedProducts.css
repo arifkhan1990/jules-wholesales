@@ -1,0 +1,79 @@
+.featured-products-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+}
+
+/* A general container class we can reuse */
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.featured-products-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #343a40;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.featured-products-title::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #007bff;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
+
+.product-carousel {
+  padding: 10px 0 50px 0; /* Add padding for shadows and pagination */
+}
+
+.product-slide {
+  height: auto; /* Important for letting card content define height */
+  display: flex;
+  justify-content: center;
+}
+
+/* Customizing Swiper Navigation Buttons */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #007bff;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  transition: background-color 0.2s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background-color: #ffffff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Customizing Swiper Pagination */
+.swiper-pagination {
+  bottom: 10px !important;
+}
+
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: #ccc;
+  opacity: 1;
+  transition: background-color 0.2s ease;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #007bff;
+}

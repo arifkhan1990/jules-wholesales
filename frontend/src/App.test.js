@@ -12,3 +12,9 @@ test('renders the footer', () => {
   const footerElement = screen.getByText(/© 2025 Multi-Everything E-commerce Platform. All rights reserved./i);
   expect(footerElement).toBeInTheDocument();
 });
+
+test('renders the featured products section', () => {
+  render(<App />);
+  const featuredTitle = screen.getByText(/Featured Products/i);
+  expect(featuredTitle).toBeInTheDocument();
+});

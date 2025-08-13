@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from './components/Hero';
 import FeaturedProducts from './components/FeaturedProducts';
+import CategoryMenu from './components/CategoryMenu';
 import './App.css';
 
 
@@ -8,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <header className="app-header">
-        {/* Main navigation could go here */}
+        <CategoryMenu />
       </header>
       <main>
         <Hero />

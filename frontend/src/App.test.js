@@ -18,3 +18,10 @@ test('renders the featured products section', () => {
   const featuredTitle = screen.getByText(/Featured Products/i);
   expect(featuredTitle).toBeInTheDocument();
 });
+
+test('renders the category navigation menu', () => {
+  render(<App />);
+  // Check for a top-level category to confirm the menu is rendered
+  const categoryLink = screen.getByText(/Electronics/i);
+  expect(categoryLink).toBeInTheDocument();
+});

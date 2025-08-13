@@ -1,1 +1,32 @@
-/* All default create-react-app styles removed. */
+/* Global App Styles */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.app-header {
+  /* The CategoryMenu component will have its own background and border */
+  /* This container can be used for alignment if more items are added */
+  display: flex;
+  justify-content: center; /* Center the nav menu for now */
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1001; /* Ensure it's above other content */
+  background-color: #ffffff; /* Give it a solid background */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.app-footer {
+  text-align: center;
+  padding: 30px;
+  background-color: #343a40;
+  color: #f8f9fa;
+  margin-top: auto; /* Pushes footer to the bottom */
+}
